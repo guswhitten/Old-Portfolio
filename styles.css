@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: rgba(82, 82, 100, 0.555);
     background-blend-mode: hsla(194, 100%, 50%, 0.281);
     text-align: center;
 }
