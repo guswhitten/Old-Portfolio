@@ -1,6 +1,6 @@
 <header>
     <link rel="stylesheet" href="styles.css">
-    <div id="logo">TBD</div>
+    <div id="logo">Microcontroller practice</div>
     <nav>  
         <ul>
             <li><a href="https://github.com/guswhitten/Whitten-Portfolio">Home - Github</a>
@@ -10,22 +10,36 @@
     </header>
     <main role="main">
     <article>
-        <h2>Demonstration:</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/npeQYT01K58?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p> Equipment Specs: 
+            <li> Texas Instruments' Code Composer Studio IDE: <a href="https://www.ti.com/tool/CCSTUDIO#downloads">Download</a>
+            <li> 
+            <li> 
+            <li> 
+        
         <p> Part 1 constraints: 
             <li> define a range of acceptable temps using a max and min
             <li> define an array of 5 temps that your systems collects every second and average them
             <li> if average falls within temp range, green LED on
             <li> if average falls outside temp range, red LED on
                     
-            
+        <p> Part 2 constraints: 
+            <li> when push button is pressed 4 times: red LED turns on, green LED will be off
+            <li> when push button pressed 2 more times: green LED turns on, red LED turns off
+            <li> this pattern repeats indefinitely
                 
+        <p> Part 3 constraints: 
+            <li> at the beginning of the program, the green LED will be on
+            <li> include a counter variable that counts number of times the push button is pressed
+            <li> when push button is pressed 5x, or any multiple of 5, green LED turns on
+            <li> the button pressing routine should be defined in an Interrupt Service Routine (ISR)
         <br>
         <br>
             
     </main>
 <br>
     <section>
+        <h2>Demonstration:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/npeQYT01K58?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <aside>
     </aside>
