@@ -10,7 +10,7 @@ ul.navbar {
     left: 1em;
     width: 9em }
 p.electrostatics {
-    position: relative;
+    position: absolute;
     float:right; 
     margin-right:20px; 
     border:none }
