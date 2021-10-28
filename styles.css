@@ -9,3 +9,9 @@ ul.navbar {
     top: 2em;
     left: 1em;
     width: 9em }
+article.electrostatics {
+    position: relative;
+    float:left; 
+    margin-right:10px; 
+    border:none }
+
